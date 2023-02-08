@@ -13,6 +13,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         {/* <Route path="/" element={<Home />}/> */}
+        <Route path="/" element={<AddStudents />}/>
         <Route path="/AddStudents" element={<AddStudents />}/>
         <Route path="/ManageStudents" element={<ManageStudents />}/>
         <Route path="/View/:id" element={<View />}/>
