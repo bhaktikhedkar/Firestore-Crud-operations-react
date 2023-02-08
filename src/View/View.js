@@ -1,3 +1,13 @@
+
+import React from 'react'
+
+function View() {
+  return (
+    <div>View</div>
+  )
+}
+
+export default View;
 // import React from 'react';
 // import { useState, useEffect } from "react";
 // import { db } from "../firebase";
@@ -44,6 +54,7 @@
 // }
 
 // export default View;
+
 
 // import React, { useState, useEffect } from "react";
 // import { Link, useParams } from "react-router-dom";
